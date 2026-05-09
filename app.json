@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Psyche",
+    "slug": "psyche",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "psyche",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.psyche.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Psyche listens to your spoken Spanish so you can practice without typing.",
+        "NSSpeechRecognitionUsageDescription": "Psyche uses speech recognition to grade your spoken Spanish."
+      }
+    },
+    "android": {
+      "package": "com.psyche.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [],
+    "extra": {
+      "anthropicApiKey": "$EXPO_PUBLIC_ANTHROPIC_API_KEY"
+    }
+  }
+}
